@@ -55,11 +55,6 @@ df.nunique()
 df['GENDER'].value_counts()
 mm=df.TOTAL.mean()
 df.TOTAL.fillna(mm,inplace=True)
-df
-```
-![o11](https://github.com/abdulwasih2003/exno1/assets/91781810/3c4321a3-5a1e-45fd-9431-3cbdbbc784d0)
-
-```py
 x=df.M4.min()
 df.M4.fillna(x,inplace=True)
 df.duplicated()
@@ -92,7 +87,7 @@ df.shape
 ```
 ![o21](https://github.com/abdulwasih2003/exno1/assets/91781810/88bb2f30-56bc-4636-8f60-466cd45c22ca)
 
-## Outlier Detection and Removal
+## Outlier Detection and Removal:
 ```py
 import pandas as pd
 import seaborn as sns
